@@ -1,0 +1,61 @@
+#taskbar-container {
+    width: 100%;
+    height: max-content;
+}
+
+.taskbar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    width: 95%;
+    height: 35px;
+
+    background-color: #BFBFBF;
+}
+
+.taskbar-content-left {
+    float: left;
+
+    height: min-content;
+    width: min-content;
+
+    margin: 5px;
+    padding: 3px;
+
+    text-align: center;
+}
+
+.taskbar-content-right {
+    float: right;
+
+    width: max-content;
+
+    margin: 5px;
+    padding: 3px;
+
+    text-align: center;
+}
+
+
+body {
+    background-color: #BFBFBF;
+}
+
+#main-body {
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h1 {
+    font-family: Arial;
+}
+
+h2 {
+    font-family: Helvetica;
+}
+
+p {
+    font-family: 'Arial Narrow';
+    font-size: 1.1em;
+}

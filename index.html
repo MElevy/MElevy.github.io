@@ -3,28 +3,27 @@
   <head>
     <meta charset="utf-8">
     <title>My website</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div id="taskbar">
-      <div id="left-content">
-        <img alt="logo" />
-        <p>Mael Levy</p>
-      </div>
-      <div id="right-content">
-        <a href="TBD">Projects</a>
-        <a href="TBD">About me</a>
-      </div>
+    <div id="taskbar-container">
+      <ul id="taskbar" class="taskbar">
+        <img class="taskbar-content-left" alt="logo" />
+        <p class="taskbar-content-left">Mael Levy</p>
+
+        <a class="taskbar-content-right" href="TBD">Projects</a>
+        <a class="taskbar-content-right" href="TBD">About me</a>
+      </ul>
+      <hr>
     </div>
     <div id="main-body">
       <div id="intro">
-        <h2>Who am I?</h2>
         <h1>Mael Levy</h1>
       </div>
       <div id="whoami">
         <img alt="placeholder" />
         <p id="about-me-paragraph">
           I am a highschool student, programmer, soccer player, and tech enthusiast.
-        <div>Placeholder(Game goes here)</div>
         </p>
         <img alt="placeholder" />
         <img alt="placeholder" /> 
@@ -42,7 +41,7 @@
             <img alt="Image of the portfolio website" />
             <img alt="Image of unstyled, unfinished portfolio" />
             <p>
-              This personal portfolio was hand-coded. 
+              This personal portfolio was hand-coded without the use of AI. 
               Throughout this project, I learned about html, css, and javascript.
               This Project really tested my determination, and my focus.
             </p>
@@ -62,6 +61,20 @@
             <div>Placeholder(Game goes here)</div>
           </div>
         </div>
+        <div id="pong">
+          <div class="project-title">
+            <h2>Multiplayer Pong</h2>
+          </div>
+          <div class="project-content">
+            <p>
+              This project is a simple reimaging of the classic game pong.
+              The feature that makes this project special is that it supports local multiplayer.
+            </p>
+            <video id="pong-gameplay" width="100" height="100" content>
+              Video not supported by your browser
+            </video>
+          </div>
+        </div>
         <div id="soccer">
           <div class="project-title">
             <h2>Soccer for Van U and School Team</h2>
@@ -74,6 +87,8 @@
               joined the Van U team. Playing on both these teams was/is a great experience, 
               and the dedication it taught me permeates throught ever aspect of my life.
             </p>
+            <img alt="Me playing soccer" />
+            <img alt="Me playing soccer" />
           </div>
         </div>
       </div>
