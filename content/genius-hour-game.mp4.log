@@ -1,0 +1,29 @@
+Started render process: /usr/bin/melt-7 -loglevel error -progress2 %2Ftmp%2Fkdenlive-kngsXT-1.mlt
+1	28	3
+2	64	7
+3	93	10
+4	137	15
+5	166	18
+6	202	22
+7	238	26
+8	274	30
+9	311	34
+10	347	38
+11	385	42
+12	421	46
+13	457	50
+14	495	54
+15	530	58
+16	567	62
+17	603	66
+18	640	70
+19	676	74
+20	713	78
+21	749	82
+22	777	85
+23	813	89
+24	850	93
+25	887	97
+
+Rendering of /home/mael/Coding/MElevy.github.io/content/genius-hour-game.mp4 aborted, resulting video will probably be corrupted.
+Frame: 887
