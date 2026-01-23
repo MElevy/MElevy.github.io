@@ -3,9 +3,91 @@
   <head>
     <meta charset="utf-8">
     <title>My website</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Welcome to my portfolio</h1>
-    <p>My skillset:</p>
+    <div id="taskbar-container">
+      <ul id="taskbar" class="taskbar">        <p class="taskbar-content-left">Mael Levy</p>
+
+        <a class="taskbar-content-right" href="TBD">Projects</a>
+        <a class="taskbar-content-right" href="TBD">About me</a>
+      </ul>
+    </div>
+
+    <div id="main-body">
+      <div id="intro">
+        <h1>Mael Levy</h1>
+      </div>
+      <div id="whoami">
+        <p id="about-me-paragraph">
+          I am a highschool student, programmer, soccer player, and tech enthusiast.
+        </p>
+        <hr>
+      </div>
+      <div id="projects">
+        <h1>Projects & Notable Achievements</h1>
+        <div id="portfolio" class="project">
+          <div class="project-title">
+            <h2>This portfolio</h3>
+          </div>
+          <div class="project-content">
+            <img alt="Image of unfinished website" src="content/portfolio.png" width="300" height="180" />
+            <p>
+              This personal portfolio was hand-coded without the use of AI.
+              Throughout this project, I learned about html, css, and javascript.
+              This Project really tested my determination, and my focus.
+            </p>
+          </div>
+        </div>
+        <div id="genius-hour-shooter" class="project">
+          <div class="project-title">
+            <h2>Mini-game for Genius-hour</h2>
+          </div>
+          <div class="project-content">
+            <p>
+              In sixth grade, we had a project called genius hour:
+              Every week we had about an hour to work on a project of our choice.
+              My project was a simple video game akin to Space Invaders (But simpler).
+              This was the result:
+            </p>
+            <video id="genius-hour-gameplay" width="350" height="260" autoplay loop muted>
+              <source src="content/genius-hour-game.mp4" type="video/mp4">
+              Video not supported by your browser
+            </video>
+          </div>
+        </div>
+        <div id="pong" class="project">
+          <div class="project-title">
+            <h2>Multiplayer Pong</h2>
+          </div>
+          <div class="project-content">
+            <p>
+              This project is a simple reimaging of the classic game pong.
+              The feature that makes this project special is that it supports local multiplayer.
+            </p>
+            <video id="pong-gameplay" width="350" height="260" autoplay loop muted>
+              <source src="content/pong-vid.mp4" type="video/mp4">
+              Video not supported by your browser
+            </video>
+          </div>
+        </div>
+        <div id="soccer" class="project">
+          <div class="project-title">
+            <h2>Soccer for Van U and School Team</h2>
+          </div>
+          <div class="project-content">
+            <p>
+              From grades 8-9 I was on my schools soccer team, which in grade 9 made it to the city finals.
+              We unfortunately lost from there, but it was a great experience.
+              I unfortunately didn't make it into the senior team in grade 10, but I bounced back and
+              joined the Van U team. Playing on both these teams was/is a great experience,
+              and the dedication it taught me permeates throught ever aspect of my life.
+            </p>
+            <img src="content/soccer-1.jpg" width="135" height="116"/>
+            <img src="content/soccer-2.jpg" width="150" height="100"/>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
